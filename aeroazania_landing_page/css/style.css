@@ -146,8 +146,27 @@ h2 em { color: var(--blue); font-style: normal; }
 .contact-banner .section-kicker { margin-bottom: 14px; }
 .contact-banner h2 { font-size: clamp(40px, 5vw, 62px); }
 .contact-banner p { max-width: 470px; margin: 18px auto 24px; color: var(--ink-soft); font-size: 15px; line-height: 1.7; }
+.contact-details {
+  max-width: 620px;
+  margin: 0 auto 28px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: left;
+}
+.contact-details p {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.7;
+}
+.contact-details p:last-child { margin-bottom: 0; }
+.contact-details strong { color: var(--ink); }
+.contact-details a { color: var(--blue-dark); }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 26px 8%; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .site-footer p { margin: 0; }
+.site-footer a { color: var(--blue-dark); }
 
 @media (max-width: 900px) {
   .site-header { padding-right: 5%; padding-left: 5%; gap: 20px; }
